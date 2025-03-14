@@ -1,0 +1,22 @@
+{
+    "BPI12_DECLINED_COMPLETE": {
+        "categorical": [
+            "Resource",
+            "lifecycle:transition",
+            "case:label",
+            "Activity"
+        ],
+        "numerical": [
+            "timesincemidnight",
+            "timesincelastevent",
+            "timesincecasestart",
+            "event_nr",
+            "month",
+            "weekday",
+            "hour",
+            "open_cases",
+            "time:timestamp",
+            "case:AMOUNT_REQ"
+        ]
+    }
+}
