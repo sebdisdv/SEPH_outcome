@@ -1,4 +1,4 @@
-Resource,lifecycle:transition,timesincemidnight,timesincelastevent,timesincecasestart,event_nr,month,weekday,hour,open_cases,time:timestamp,Activity,case:AMOUNT_REQ,CaseID,case:label
+Resource,lifecycle:transition,timesincemidnight,timesincelastevent,timesincecasestart,event_nr,month,weekday,hour,open_cases,time:timestamp,Activity,case:AMOUNT_REQ,CaseID,Label
 0.0,SCHEDULE,917.0,20391.821416666666,41508.45778333333,40.0,1.0,1.0,15.0,705.0,1325603862.08,wwijzigencontractgegevensschedule,25000.0,191464,False
 11289.0,START,687.0,2489.8453666666665,79916.91965,48.0,1.0,2.0,11.0,730.0,1325676439.873,wvaliderenaanvraagstart,40000.0,183622,False
 11289.0,COMPLETE,742.0,55.41565,79972.3353,49.0,1.0,2.0,12.0,729.0,1325679764.812,wvaliderenaanvraagcomplete,40000.0,183622,False

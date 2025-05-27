@@ -1,4 +1,4 @@
-Resource,lifecycle:transition,timesincemidnight,timesincelastevent,timesincecasestart,event_nr,month,weekday,hour,open_cases,time:timestamp,Activity,case:AMOUNT_REQ,CaseID,case:label
+Resource,lifecycle:transition,timesincemidnight,timesincelastevent,timesincecasestart,event_nr,month,weekday,hour,open_cases,time:timestamp,Activity,case:AMOUNT_REQ,CaseID,Label
 0.0,START,528.0,32451.21683333333,44326.4756,19.0,1.0,4.0,8.0,854.0,1327654095.063,wnabellenoffertesstart,9000.0,195809,False
 0.0,COMPLETE,528.0,0.3895166666666667,44326.86511666667,20.0,1.0,4.0,8.0,854.0,1327654118.434,wnabellenoffertescomplete,9000.0,195809,False
 0.0,COMPLETE,615.0,86.97636666666666,44413.84148333333,21.0,1.0,4.0,10.0,844.0,1327659337.016,wnabellenoffertescomplete,9000.0,195809,False
