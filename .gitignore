@@ -1,5 +1,8 @@
 env3/
 
+*.pkl
+SEPH_OUTCOME/data/datasets/graphs_repair/*
+SEPH_OUTCOME/data/datasets/original/BPIC17_O_Cancelled.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

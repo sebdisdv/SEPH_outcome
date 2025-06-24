@@ -1,21 +1,29 @@
 {
-    "BPI12_DECLINED_COMPLETE": {
+    "BPIC11_f1": {
         "categorical": [
-            "Resource",
-            "lifecycle:transition",
-            "Activity"
+           "Diagnosis",
+           "Treatment code",
+            "Diagnosis code",
+            "Specialism code",
+            "Diagnosis Treatment Combination ID",
+            "CaseID",
+            "Activity",
+            "Producer code",
+            "Section",
+            "Specialism code.1",
+            "group"
         ],
         "numerical": [
+            "Age",
+            "Number of executions",
             "timesincemidnight",
-            "timesincelastevent",
-            "timesincecasestart",
-            "event_nr",
             "month",
             "weekday",
             "hour",
-            "open_cases",
-            "time:timestamp",
-            "case:AMOUNT_REQ"
+            "timesincelastevent",
+            "timesincecasestart",
+            "event_nr",
+            "open_cases"
         ]
     },
     "sepsis_cases_1":{
