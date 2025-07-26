@@ -144,5 +144,62 @@
             "event_nr",
             "open_cases"
         ]
+    },"BPIC15_4_f2": {
+        "categorical": [
+            "Responsible_actor",
+            "CaseID",
+            "Aanleg (Uitvoeren werk of werkzaamheid)",
+            "Bouw",
+            "Brandveilig gebruik (vergunning)",
+            "Gebiedsbescherming",
+            "Handelen in strijd met regels RO",
+            "Inrit/Uitweg",
+            "Kap",
+            "Milieu (neutraal wijziging)",
+            "Milieu (omgevingsvergunning beperkte milieutoets)",
+            "Milieu (vergunning)",
+            "Monument",
+            "Reclame",
+            "Sloop",
+            "Activity",
+            "monitoringResource",
+            "question",
+            "org:resource"
+        ],
+        "numerical": [
+            "SUMleges",
+            "time:timestamp",
+            "timesincemidnight",
+            "month",
+            "weekday",
+            "hour",
+            "timesincelastevent",
+            "timesincecasestart",
+            "event_nr",
+            "open_cases"
+        ]
+    },
+    "bpic2012_O_ACCEPTED-COMPLETE": {
+        "categorical": [
+            "CaseID",
+            "Activity",
+            "Resource",
+            "lifecycle:transition",
+            "label"
+        ],
+        "numerical": [
+            "AMOUNT_REQ",
+            "timesincemidnight",
+            "timesincelastevent",
+            "timesincecasestart",
+            "event_nr",
+            "month",
+            "weekday",
+            "hour",
+            "open_cases",
+            "time:timestamp"
+        ]
     }
+
+
 }

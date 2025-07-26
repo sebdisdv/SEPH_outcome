@@ -71,7 +71,7 @@
             "open_cases"
         ]
     },
-    "sepsis_cases_4":{
+    "sepsis_cases_2":{
         "categorical": [
             "Diagnose",
             "DiagnosticArtAstrup",
@@ -116,7 +116,7 @@
             "open_cases"
         ]
     },
-    "BPIC15_common": {
+    "BPIC15_3_f2": { 
         "categorical": [
             "Responsible_actor",
             "CaseID",
@@ -152,5 +152,122 @@
             "event_nr",
             "open_cases"
         ]
+    },
+    "bpic2012_O_DECLINED-COMPLETE": {
+        "categorical": [
+            "CaseID",
+            "Activity",
+            "Resource",
+            "lifecycle:transition"
+        ],
+        "numerical": [
+            "AMOUNT_REQ",
+            "timesincemidnight",
+            "timesincelastevent",
+            "timesincecasestart",
+            "event_nr",
+            "month",
+            "weekday",
+            "hour",
+            "open_cases",
+            "time:timestamp"
+        ]
+    },
+    "traffic_fines_1": {
+        "categorical": [
+            "article",
+            "vehicleClass",
+            "CaseID",
+            "Activity",
+            "Resource",
+            "lastSent",
+            "notificationType",
+            "dismissal"
+        ],
+        "numerical": [
+            "amount",
+            "points",
+            "expense",
+            "timesincemidnight",
+            "month",
+            "weekday",
+            "hour",
+            "timesincelastevent",
+            "timesincecasestart",
+            "event_nr",
+            "open_cases"
+        ]
+    },
+    "BPIC17_O_Cancelled": {
+        "categorical": [
+            "ApplicationType",
+            "LoanGoal",
+            "CaseID",
+            "Activity",
+            "org:resource",
+            "Action",
+            "EventOrigin",
+            "lifecycle:transition",
+            "Accepted",
+            "Selected"
+        ],
+        "numerical": [
+            "RequestedAmount",
+            "FirstWithdrawalAmount",
+            "MonthlyCost",
+            "NumberOfTerms",
+            "OfferedAmount",
+            "CreditScore",
+            "timesincelastevent",
+            "timesincecasestart",
+            "timesincemidnight",
+            "event_nr",
+            "month",
+            "weekday",
+            "hour",
+            "open_cases",
+            "time:timestamp"
+        ]
+    },
+    "hospital_billing_3": {
+        "categorical": [
+            "speciality",
+            "CaseID",
+            "Activity",
+            "Resource",
+            "actOrange",
+            "actRed",
+            "blocked",
+            "caseType",
+            "diagnosis",
+            "flagC",
+            "flagD",
+            "msgCode",
+            "msgType",
+            "state",
+            "version",
+            "isCancelled",
+            "isClosed",
+            "closeCode"
+        ],
+        "numerical": [
+            "msgCount",
+            "time:timestamp",
+            "timesincemidnight",
+            "month",
+            "weekday",
+            "hour",
+            "timesincelastevent",
+            "timesincecasestart",
+            "event_nr",
+            "open_cases"
+        ]
     }
+
+
+    
 }
+
+
+   
+
