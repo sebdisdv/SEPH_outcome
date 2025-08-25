@@ -1,118 +1,13 @@
 {
-    "BPI12_DECLINED_COMPLETE": {
-        "categorical": [
-            "Resource",
-            "lifecycle:transition",
-            "Activity"
-        ],
-        "numerical": [
-            "timesincemidnight",
-            "timesincelastevent",
-            "timesincecasestart",
-            "event_nr",
-            "month",
-            "weekday",
-            "hour",
-            "open_cases",
-            "time:timestamp",
-            "case:AMOUNT_REQ"
-        ]
-    },
-    "sepsis_cases_1":{
-        "categorical": [
-            "Diagnose",
-            "DiagnosticArtAstrup",
-            "DiagnosticBlood",
-            "DiagnosticECG",
-            "DiagnosticIC",
-            "DiagnosticLacticAcid",
-            "DiagnosticLiquor",
-            "DiagnosticOther",
-            "DiagnosticSputum",
-            "DiagnosticUrinaryCulture",
-            "DiagnosticUrinarySediment",
-            "DiagnosticXthorax",
-            "DisfuncOrg",
-            "Hypotensie",
-            "Hypoxie",
-            "InfectionSuspected",
-            "Infusion",
-            "Oligurie",
-            "SIRSCritHeartRate",
-            "SIRSCritLeucos",
-            "SIRSCritTachypnea",
-            "SIRSCritTemperature",
-            "SIRSCriteria2OrMore",
-            "CaseID",
-            "Activity",
-            "org:group"
-        ],
-        "numerical": [
-            "Age",
-            "CRP",
-            "LacticAcid",
-            "Leucocytes",
-            "time:timestamp",
-            "timesincemidnight",
-            "month",
-            "weekday",
-            "hour",
-            "timesincelastevent",
-            "timesincecasestart",
-            "event_nr",
-            "open_cases"
-        ]
-    },
-    "sepsis_cases_4":{
-        "categorical": [
-            "Diagnose",
-            "DiagnosticArtAstrup",
-            "DiagnosticBlood",
-            "DiagnosticECG",
-            "DiagnosticIC",
-            "DiagnosticLacticAcid",
-            "DiagnosticLiquor",
-            "DiagnosticOther",
-            "DiagnosticSputum",
-            "DiagnosticUrinaryCulture",
-            "DiagnosticUrinarySediment",
-            "DiagnosticXthorax",
-            "DisfuncOrg",
-            "Hypotensie",
-            "Hypoxie",
-            "InfectionSuspected",
-            "Infusion",
-            "Oligurie",
-            "SIRSCritHeartRate",
-            "SIRSCritLeucos",
-            "SIRSCritTachypnea",
-            "SIRSCritTemperature",
-            "SIRSCriteria2OrMore",
-            "CaseID",
-            "Activity",
-            "org:group"
-        ],
-        "numerical": [
-            "Age",
-            "CRP",
-            "LacticAcid",
-            "Leucocytes",
-            "time:timestamp",
-            "timesincemidnight",
-            "month",
-            "weekday",
-            "hour",
-            "timesincelastevent",
-            "timesincecasestart",
-            "event_nr",
-            "open_cases"
-        ]
-    },
-    "BPIC15_common": {
+    "bpic2015_1": {
         "categorical": [
             "Responsible_actor",
             "CaseID",
-            "Aanleg (Uitvoeren werk of werkzaamheid)",
+            "Activity",
+            "monitoringResource",
+            "question",
+            "Resource",
+            "Aanleg (Uitvoeren werk of werkzaamheid)", 
             "Bouw",
             "Brandveilig gebruik (melding)",
             "Brandveilig gebruik (vergunning)",
@@ -126,28 +21,99 @@
             "Milieu (vergunning)",
             "Monument",
             "Reclame",
-            "Sloop",
-            "Activity",
-            "monitoringResource",
-            "question",
-            "org:resource"
+            "Sloop"
         ],
         "numerical": [
             "SUMleges",
-            "time:timestamp",
-            "timesincemidnight",
+            "duration",
             "month",
             "weekday",
             "hour",
-            "timesincelastevent",
-            "timesincecasestart",
-            "event_nr",
-            "open_cases"
+            "remtime",
+            "elapsed",
+            "time:timestamp"
         ]
-    },"BPIC15_4_f2": {
+    },
+    "bpic2015_2": {
         "categorical": [
             "Responsible_actor",
             "CaseID",
+            "Activity",
+            "monitoringResource",
+            "question",
+            "Resource",
+            "Aanleg (Uitvoeren werk of werkzaamheid)", 
+            "Bouw",
+            "Brandveilig gebruik (melding)",
+            "Brandveilig gebruik (vergunning)",
+            "Gebiedsbescherming",
+            "Handelen in strijd met regels RO",
+            "Inrit/Uitweg",
+            "Kap",
+            "Milieu (melding)",
+            "Milieu (neutraal wijziging)",
+            "Milieu (omgevingsvergunning beperkte milieutoets)",
+            "Milieu (vergunning)",
+            "Monument",
+            "Reclame",
+            "Sloop"
+        ],
+        "numerical": [
+            "SUMleges",
+            
+            "duration",
+            "month",
+            "weekday",
+            "hour",
+            "remtime",
+            "elapsed",
+            "time:timestamp"
+        ]
+    },
+    "bpic2015_3": {
+        "categorical": [
+            "Responsible_actor",
+            "CaseID",
+            "Activity",
+            "monitoringResource",
+            "question",
+            "Resource",
+            "Aanleg (Uitvoeren werk of werkzaamheid)", 
+            "Bouw",
+            "Brandveilig gebruik (melding)",
+            "Brandveilig gebruik (vergunning)",
+            "Flora en Fauna",
+            "Gebiedsbescherming",
+            "Handelen in strijd met regels RO",
+            "Inrit/Uitweg",
+            "Kap",
+            "Milieu (melding)",
+            "Milieu (neutraal wijziging)",
+            "Milieu (omgevingsvergunning beperkte milieutoets)",
+            "Milieu (vergunning)",
+            "Monument",
+            "Reclame",
+            "Sloop"
+        ],
+        "numerical": [
+            "SUMleges",
+            "duration",
+            "month",
+            "weekday",
+            "hour",
+            "remtime",
+            "elapsed",
+            "time:timestamp"
+        ]
+    },
+    "bpic2015_4": {
+        "categorical": [
+            "Responsible_actor",
+            "CaseID",
+            "Activity",
+            "monitoringResource",
+            "question",
+            "Resource",
             "Aanleg (Uitvoeren werk of werkzaamheid)",
             "Bouw",
             "Brandveilig gebruik (vergunning)",
@@ -160,16 +126,180 @@
             "Milieu (vergunning)",
             "Monument",
             "Reclame",
-            "Sloop",
-            "Activity",
-            "monitoringResource",
-            "question",
-            "org:resource"
+            "Sloop" 
         ],
         "numerical": [
             "SUMleges",
+            "duration",
+            "month",
+            "weekday",
+            "hour",
+            "remtime",
+            "elapsed",
+            "time:timestamp"
+        ]
+    },
+    "bpic2015_5": {
+        "categorical": [
+            "Responsible_actor",
+            "CaseID",
+            "Activity",
+            "monitoringResource",
+            "question",
+            "Resource",
+            "Aanleg (Uitvoeren werk of werkzaamheid)",    
+            "Bouw",
+            "Brandveilig gebruik (melding)",
+            "Brandveilig gebruik (vergunning)",
+            "Flora en Fauna",
+            "Gebiedsbescherming",
+            "Handelen in strijd met regels RO",
+            "Inrit/Uitweg",
+            "Integraal",
+            "Kap",
+            "Milieu (melding)",
+            "Milieu (neutraal wijziging)",
+            "Milieu (omgevingsvergunning beperkte milieutoets)",
+            "Milieu (vergunning)",
+            "Monument",
+            "Reclame",
+            "Sloop"                                          
+        ],
+        "numerical": [
+            "SUMleges",
+            "duration",
+            "month",
+            "weekday",
+            "hour",
+            "remtime",
+            "elapsed",
+            "time:timestamp"
+        ]
+    },
+    "credit": {
+        "categorical": [
+            "CaseID",
+            "Activity"
+        ],
+        "numerical": [
+            "activity_duration",
             "time:timestamp",
             "timesincemidnight",
+            "month",
+            "weekday",
+            "hour",
+            "timesincecasestart",
+            "open_cases",
+            "remtime"
+        ]
+    },
+    "helpdesk": {
+        "categorical": [
+            "CaseID",
+            "Resource",
+            "customer",
+            "org.resource",
+            "product",
+            "responsible_section",
+            "seriousness",
+            "service_level",
+            "service_type",
+            "support_section",
+            "workgroup",
+            "Activity"
+        ],
+        "numerical": [
+            "remtime",
+            "elapsed",
+            "open_cases",
+            "time:timestamp"
+        ]
+    },
+    "invoice": {
+        "categorical": [
+            "CostCenter.Code",
+            "Supplier.City",
+            "Supplier.Name",
+            "Supplier.State",
+            "CaseID",
+            "Activity",
+            "Resource",
+            "ActivityFinalAction",
+            "EventType"
+        ],
+        "numerical": [
+            "InvoiceTotalAmountWithoutVAT",
+            "time:timestamp",
+            "month",
+            "weekday",
+            "hour",
+            "timesincelastevent",
+            "timesincecasestart",
+            "remtime",
+            "event_nr",
+            "open_cases"
+        ]
+    },
+    "Production_Data": {
+        "categorical": [
+            "Part Desc",
+            "CaseID",
+            "Activity",
+            "Resource",
+            "Report Type",
+            "Worker ID"
+        ],
+        "numerical": [
+            "Work Order Qty",
+            "Qty Completed",
+            "Qty for MRB",
+            "activity_duration",
+            "weekday",
+            "hour",
+            "timesincelastevent",
+            "timesincecasestart",
+            "remtime",
+            "event_nr",
+            "open_cases",
+            "time:timestamp"
+        ]
+    },
+    "sepsis":{
+        "categorical": [
+            "Diagnose",
+            "DiagnosticArtAstrup",
+            "DiagnosticBlood",
+            "DiagnosticECG",
+            "DiagnosticIC",
+            "DiagnosticLacticAcid",
+            "DiagnosticLiquor",
+            "DiagnosticOther",
+            "DiagnosticSputum",
+            "DiagnosticUrinaryCulture",
+            "DiagnosticUrinarySediment",
+            "DiagnosticXthorax",
+            "DisfuncOrg",
+            "Hypotensie",
+            "Hypoxie",
+            "InfectionSuspected",
+            "Infusion",
+            "Oligurie",
+            "SIRSCritHeartRate",
+            "SIRSCritLeucos",
+            "SIRSCritTachypnea",
+            "SIRSCritTemperature",
+            "SIRSCriteria2OrMore",
+            "CaseID",
+            "Activity",
+            "org:group"
+        ],
+        "numerical": [
+            "Age",
+            "CRP",
+            "LacticAcid",
+            "Leucocytes",
+            "time:timestamp",
+            "duration",
             "month",
             "weekday",
             "hour",
@@ -178,28 +308,8 @@
             "event_nr",
             "open_cases"
         ]
-    },
-    "bpic2012_O_ACCEPTED-COMPLETE": {
-        "categorical": [
-            "CaseID",
-            "Activity",
-            "Resource",
-            "lifecycle:transition",
-            "label"
-        ],
-        "numerical": [
-            "AMOUNT_REQ",
-            "timesincemidnight",
-            "timesincelastevent",
-            "timesincecasestart",
-            "event_nr",
-            "month",
-            "weekday",
-            "hour",
-            "open_cases",
-            "time:timestamp"
-        ]
     }
+  
 
 
 }

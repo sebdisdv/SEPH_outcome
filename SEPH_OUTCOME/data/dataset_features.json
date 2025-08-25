@@ -1,5 +1,5 @@
 {
-    "BPIC11_f1": {
+    "BPIC11_f2": {
         "categorical": [
            "Diagnosis",
            "Treatment code",
@@ -21,6 +21,7 @@
             "weekday",
             "hour",
             "timesincelastevent",
+            "time:timestamp",
             "timesincecasestart",
             "event_nr",
             "open_cases"
@@ -71,7 +72,7 @@
             "open_cases"
         ]
     },
-    "sepsis_cases_2":{
+    "sepsis_cases_common":{
         "categorical": [
             "Diagnose",
             "DiagnosticArtAstrup",
@@ -153,7 +154,7 @@
             "open_cases"
         ]
     },
-    "bpic2012_O_DECLINED-COMPLETE": {
+    "bpic2012_common": {
         "categorical": [
             "CaseID",
             "Activity",
